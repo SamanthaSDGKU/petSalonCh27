@@ -11,36 +11,8 @@ const petSalon={
     workingHours:{
         open:"9:00 am",
         close:"5:00 pm"
-    },//Create pets array 
-    pets:[
-        { // first pet
-            name:"Scooby",
-            age:50,
-            gender:"Male",
-            breed:"Dane",
-            service:"Grooming",
-            ownerName:"Shaggy",
-            contactPhone:"888-888-888"
-        },
-        {
-            name:"Scooby",
-            age:50,
-            gender:"Male",
-            breed:"Dane",
-            service:"Grooming",
-            ownerName:"Shaggy",
-            contactPhone:"888-888-888"
-        },
-        {
-            name:"Scooby",
-            age:50,
-            gender:"Male",
-            breed:"Dane",
-            service:"Grooming",
-            ownerName:"Shaggy",
-            contactPhone:"888-888-888"
-        }
-    ]
+    },
+    pets:[]
 }
 //console.log(petSalon.address.zip);
 //console.log(petSalon.pets.length);
@@ -53,8 +25,5 @@ function displaySalonInfo(){
     <p>Welcome ${petSalon.name} in ${petSalon.address.city} </p>
     <p>opens ${petSalon.workingHours.open}</p> `;
 }
-displaySalonInfo();
+//displaySalonInfo();
 
-function displayPetNames(){
-
-}
